@@ -1,20 +1,26 @@
-.first-color{ 
-	color: #0881a3 !important; 
-	}
-	
-	btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited { 
-	background-color:#0881a3 !important; 
-	}
-		
-	.second-color, body{ 
-	background-color: #fffdfb; 
-	}
-	
-	.third-color { 
-		background: #fde9df; 
-	}
-	
-	.fourth-color { 
-		background: #ffd6a4; 
-	}
-	
+.first-color {
+	color: #0881a3 !important;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+	background-color: #0881a3 !important;
+	border-color: #0881a3 !important;
+}
+
+.second-color,
+body {
+	background-color: #fffdfb;
+}
+
+.third-color {
+	background: #fde9df;
+}
+
+.fourth-color,
+.btn-primary:hover {
+	background-color: #ffd6a4 !important;
+	color: #0881a3 !important;
+}
